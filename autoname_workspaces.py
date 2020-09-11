@@ -53,7 +53,7 @@ WINDOW_ICONS = {
     'atom': fa.icons['code'],
     'banshee': fa.icons['play'],
     'blender': fa.icons['cube'],
-    'chromium': fa.icons['chrome'],
+    'chromium-browser': fa.icons['chrome'],
     'cura': fa.icons['cube'],
     'darktable': fa.icons['image'],
     'discord': fa.icons['comment'],
@@ -67,6 +67,7 @@ WINDOW_ICONS = {
     'filezilla': fa.icons['server'],
     'firefox': fa.icons['firefox'],
     'firefox-esr': fa.icons['firefox'],
+    'gedit': fa.icons['code'],
     'gimp-2.8': fa.icons['image'],
     'gnome-control-center': fa.icons['toggle-on'],
     'gnome-terminal-server': fa.icons['terminal'],
@@ -105,9 +106,12 @@ WINDOW_ICONS = {
     'urxvt': fa.icons['terminal'],
     'xfce4-terminal': fa.icons['terminal'],
     'xournal': fa.icons['file-alt'],
+    'x-terminal-emulator': fa.icons['terminal'],
     'yelp': fa.icons['code'],
+    'zathura': fa.icons['file-pdf'],
     'zenity': fa.icons['window-maximize'],
     'zoom': fa.icons['comment'],
+    'zotero': fa.icons['book'],
 }
 
 # This icon is used for any application not in the list above

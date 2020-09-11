@@ -72,6 +72,7 @@ def _encode_base_10_number(n: int, symbols: str) -> str:
 
 
 def format_icon_list(icon_list, icon_list_format='default'):
+    icon_list = list(dict.fromkeys(icon_list))
     if icon_list_format.lower() == 'default':
         # Default (no formatting)
         return ' '.join(icon_list)
